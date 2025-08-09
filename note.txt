@@ -8,6 +8,7 @@
             "mcp__serena__list_dir"
         ],
         "deny": []
-    },
-    "apiKeyHelper": "echo 'token'"
+    }
+    //,
+    //"apiKeyHelper": "echo 'token'"
 }
