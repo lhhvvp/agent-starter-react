@@ -1,0 +1,14 @@
+{
+    "env": {
+        "ANTHROPIC_API_KEY": "cr_2028f6fc90449fdbad9d3eb9423e83179ef508c3515132c43d3c6df0cbea94ce",
+        "ANTHROPIC_BASE_URL": "http://claude.chatgpt6666.cn/api"
+    },
+    "permissions": {
+        "allow": [
+            "mcp__serena__list_dir"
+        ],
+        "deny": []
+    }
+    //,
+    //"apiKeyHelper": "echo 'token'"
+}
