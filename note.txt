@@ -29,3 +29,14 @@
 新增 .dockerignore
 Dockerfile 支持 HTTP_PROXY/HTTPS_PROXY/NO_PROXY（builder/runner 阶段均生效）
 需要我保留运行容器，还是现在帮你打包并推送到某个镜像仓库？
+
+
+
+为了避免将来出现格式问题，建议：
+提交前检查：运行 pnpm format:check
+自动修复：运行 pnpm format
+IDE 集成：在编辑器中启用 Prettier 自动格式化
+Git Hook：可以考虑添加 pre-commit hook 自动运行格式检查
+现在你的代码格式问题已经完全解决了！
+
+
